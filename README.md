@@ -1,6 +1,6 @@
 # 안녕하세요 👋
 
-자율주행대회팀으로 활동중인 전자전기공학부  대학생입니다.
+자율주행 대회팀에서 ROS2 기반 주행 알고리즘을 개발하고 있는 전자전기공학부 대학생입니다.
 
 ---
 
@@ -8,7 +8,7 @@
 
 * 자율주행, 센서 융합, 제어에 관심이 있습니다.
 * ROS2 기반 자율주행 알고리즘을 공부하고 있습니다.
-
+* 자율주행뿐만 아니라 반도체, 회로, 프로그램 언어 등 다양한 분야도 공부중입니다.
 
 ---
 
@@ -24,15 +24,15 @@
 
 ## Projects
 
-### Autonomous Driving Project
+### 국제 대학생 EV 자율주행 경진대회
 
-ROS2 기반 자율주행 시스템을 개발하고 있습니다.
+DWA 기반 경로 생성 알고리즘과 Pure Pursuit과 Stanley 알고리즘을 fusion한 제어 알고리즘을 설계했습니다.
 
-* DWA 기반 local path planning
-* LiDAR 기반 장애물 회피
-* GPS / IMU 기반 위치 추정
+* DWA 최적화 코스트 함수 설계
+* DWA 관련 파라미터 최적화
+* 제어 파라미터 최적화
 * Pure Pursuit / Stanley 기반 path tracking
-* HD MAP 제작
+
 
 ### Wood Moisture Detection System
 
