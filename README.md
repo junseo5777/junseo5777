@@ -6,16 +6,6 @@
 
 ---
 
-## Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat\&logo=python\&logoColor=white)
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat\&logo=ros\&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat\&logo=ubuntu\&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat\&logo=arduino\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat\&logo=github\&logoColor=white)
-
----
-
 ## Projects
 
 ### [국제 대학생 EV 자율주행 경진대회](https://github.com/junseo5777/jeju-ev-autonomous-driving-contest)
