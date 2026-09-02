@@ -89,10 +89,20 @@ Arduino 기반 목재 수분 및 부식 위험 감지 장치를 제작했습니�
 
 
 ### 제9회 국민대학교 자율주행 경진대회 / 주차경기
-<img src="./images/kmu_parking_mission_result.png" alt="제9회 국민대학교 자율주행 경진대회 주차 미션 결과" width="180" align="right">
 
-* 수상 내용 : 특별상
-* 팀명 : 빅딜
-* 주최 : 국민대학교 SW중심대학사업단
-* 주관 : 자이트론
-* 기간 : 2026.08.25
+<table>
+  <tr>
+    <td width="430" valign="middle">
+      <ul>
+        <li>수상 내용 : 특별상</li>
+        <li>팀명 : 빅딜</li>
+        <li>주최 : 국민대학교 SW중심대학사업단</li>
+        <li>주관 : 자이트론</li>
+        <li>기간 : 2026.08.25</li>
+      </ul>
+    </td>
+    <td valign="middle">
+      <img src="./images/kmu_parking_mission_result.png" alt="제9회 국민대학교 자율주행 경진대회 주차 미션 결과" width="180">
+    </td>
+  </tr>
+</table>
