@@ -7,6 +7,25 @@
 
 ## Projects
 
+### [2026 KMU - Final](https://github.com/junseo5777/2026_KMU/tree/final)
+
+카메라와 LiDAR 기반 자율주행 시스템에서 DWA를 활용한 경로 후보 생성 및 라바콘 장애물 회피 로직을 개발했습니다.
+
+* Bicycle Model 기반 조향 후보 궤적 생성
+* LiDAR 원시 스캔 데이터를 활용한 장애물 비용 함수 설계
+* DWA 후보 경로 및 최종 선택 경로 RViz marker 시각화
+
+
+### [2026 KMU - Parking](https://github.com/junseo5777/2026_KMU/tree/parking)
+
+국민대학교 자율주행 주차경기를 위해 Cartographer Mapping, Amcl Localization 및 주차 경로 계획 시스템을 구현했습니다.
+
+* LiDAR/IMU와 Cartographer를 활용한 연습 공간 2D 지도 생성
+* LiDAR ICP Odometry와 AMCL 기반 차량 위치 및 방향 추정
+* Hybrid A* 기반 전진 및 후진 주차 경로 생성
+* START, Parking A, Parking B 순차 주행 미션 구성
+
+
 ### [국제 대학생 EV 자율주행 경진대회](https://github.com/junseo5777/jeju-ev-autonomous-driving-contest)
 
 DWA 기반 경로 생성 알고리즘과 Pure Pursuit과 Stanley 알고리즘을 fusion한 제어 알고리즘을 설계했습니다.
@@ -61,7 +80,17 @@ Arduino 기반 목재 수분 및 부식 위험 감지 장치를 제작했습니�
 
 ## Awards
 
-### 제5회 국제 대학생 EV 자율주행 경진대회 / 자율주행 모빌리티 경진대회 1/5
+### 제5회 국제 대학생 EV 자율주행 경진대회 / 자율주행 모빌리티 경진대회 1/5 scale
 * 수상 내용 : 장려상
 * 주최 : 국제e모빌리티엑스포 
 * 기간 : 2026.03.24 - 03.27
+
+
+### 제9회 국민대학교 자율주행 경진대회 / 주차경기
+* 수상 내용 : 특별상
+* 팀명 : 빅딜
+* 주최 : 국민대학교 SW중심대학사업단
+* 주관 : 자이트론
+* 기간 : 2026.08.25
+
+<img src="./images/kmu_parking_mission_result.png" alt="제9회 국민대학교 자율주행 경진대회 주차 미션 결과" width="300">
