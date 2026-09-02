@@ -95,4 +95,4 @@ Arduino 기반 목재 수분 및 부식 위험 감지 장치를 제작했습니�
 * 주관 : 자이트론
 * 기간 : 2026.08.25
 
-<img src="./images/kmu_parking_mission_result.png" alt="제9회 국민대학교 자율주행 경진대회 주차 미션 결과" width="300">
+<img src="./images/kmu_parking_mission_result.png" alt="제9회 국민대학교 자율주행 경진대회 주차 미션 결과" width="280">
