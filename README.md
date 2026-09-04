@@ -61,16 +61,6 @@ Arduino 기반 목재 수분 및 부식 위험 감지 장치를 제작했습니�
 
 ---
 
-## Currently Studying
-
-* Global Path
-* Sensor Fusion
-* Path Tracking Control
-* HD MAP
-* SLAM
-
----
-
 ## Awards
 
 ### 제5회 국제 대학생 EV 자율주행 경진대회 / 자율주행 모빌리티 경진대회 1/5 scale
