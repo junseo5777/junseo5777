@@ -29,15 +29,15 @@ DWA 기반 경로 생성 알고리즘과 Pure Pursuit과 Stanley 알고리즘을
 * Pure Pursuit / Stanley 기반 path tracking
 
 
-### [MORAI Link-Based Global Path Planning](https://github.com/junseo5777/morai_link_global_path)
+### [MORAI Link-Based Driving Context & Candidate Path](https://github.com/junseo5777/morai_link)
 
-MORAI 정밀도로지도와 ROS1을 활용해 현재 차량 위치에서 목표 지점까지 전역 경로를 생성하고 시각화하는 프로젝트입니다.
+MORAI MGeo 정밀도로지도와 차량 위치를 결합해 현재 도로 상태와 주행 후보 경로를 생성하는 MACARON 8의 link 기반 planning 계층을 개발했습니다.
 
-* Link graph 기반 Dijkstra 최단 경로 탐색
-* 정지선 및 최소 전방 거리를 고려한 차선 변경 경로 생성
-* Dijkstra 경로와 차선 변경 가능한 좌우 link를 후보로 활용한 현재 link 추정
-* GPS/IMU UDP 데이터를 이용한 UTM 위치 및 yaw 생성
-* 전역 경로, 현재 link, 차량 위치 RViz marker 시각화
+* 634개 link와 480개 node의 좌표 변환, graph 구성 및 최근접 선분 검색 index 구현
+* UTM 위치·yaw·route·인접 차로를 이용한 현재 link 추정과 10회 연속 관측 기반 전환 안정화
+* 현재 차로 유지 및 좌·우 차선변경을 위한 약 40m center/Bezier 후보 경로 생성
+* 정지선·신호등·제한속도·교차로·고속도로·톨게이트 등 도로 문맥 생성
+* link 기반 후방 목표점, 가상 중앙선, 동적 객체의 차로 상대 위치 생성
 
 
 ### Wood Moisture Detection System
