@@ -1,5 +1,15 @@
 ## Projects
 
+### [VLP-16 + CV7 3D Mapping & NDT Localization](https://github.com/junseo5777/3D_SLAM)
+
+VLP-16 LiDAR와 CV7 IMU를 활용해 FAST-LIO2 기반 3D mapping 및 NDT map localization 시스템을 ROS 2로 구현했습니다.
+
+* VLP-16 organized point cloud 전처리와 역방향 장착 IMU의 초기 좌표 정렬
+* voxel 기반 3D 점군 지도 생성 및 free-space 관측을 활용한 동적 잔상 제거
+* FAST-LIO2 local odometry와 비동기 NDT map matching을 결합한 전역 위치 추정
+* 추적 단절 시 단계적 재탐색·복구와 보정 속도 제한을 통한 안정적인 base_link pose 출력
+
+
 ### [2026 KMU - Final](https://github.com/junseo5777/2026_KMU/tree/final)
 
 카메라와 LiDAR 기반 자율주행 시스템에서 DWA를 활용한 경로 후보 생성 및 라바콘 장애물 회피 로직을 개발했습니다.
