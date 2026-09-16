@@ -1,6 +1,6 @@
 ## Projects
 
-### [VLP-16 + CV7 3D Mapping & NDT Localization](https://github.com/junseo5777/3D_SLAM)
+### [3D_SLAM](https://github.com/junseo5777/3D_SLAM)
 
 VLP-16 LiDAR와 CV7 IMU를 활용해 FAST-LIO2 기반 3D mapping 및 NDT map localization 시스템을 ROS 2로 구현했습니다.
 
@@ -39,7 +39,7 @@ DWA 기반 경로 생성 알고리즘과 Pure Pursuit과 Stanley 알고리즘을
 * Pure Pursuit / Stanley 기반 path tracking
 
 
-### [MORAI Link-Based Driving Context & Candidate Path](https://github.com/junseo5777/morai_link)
+### [MORAI_LINK](https://github.com/junseo5777/morai_link)
 
 MORAI MGeo 정밀도로지도와 차량 위치를 결합해 현재 도로 상태와 주행 후보 경로를 생성하는 MACARON 8의 link 기반 planning 계층을 개발했습니다.
 
